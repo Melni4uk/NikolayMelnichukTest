@@ -1,0 +1,227 @@
+
+/*body {
+    background-image: url("images/fullscreen_bg_image.jpg");
+    background-size: 100%;
+
+}*/
+.bgAutorisation{
+    background-size: 100%;
+}
+#container {
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    height: 100%;
+    width: 100vh;
+}
+.singUp{
+    color: gray;
+}
+#logbox {
+    padding: 10px;
+    margin: 50px auto;
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+h1 {
+    text-align: center;
+
+    color: #757575;
+    font-weight: 300;
+}
+
+h1, input {
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.input {
+    width: 75%;
+    height: 20%;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+}
+.input:focus {
+    outline: none;
+    border-bottom-color: #3CC ;
+}
+.input:hover {
+    border-bottom-color: #dcdcdc;
+}
+/*.input:invalid {
+    box-shadow: none;
+}*/
+
+/*
+.pass:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+*/
+
+/*.inputButton {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 30px;
+    color: white;
+    background-color: #3CC;
+    border: none;
+    -webkit-box-shadow: 0 5px 0 #2CADAD;
+    -moz-box-shadow: 0 5px 0 #2CADAD;
+    box-shadow: 0 5px 0 #2CADAD;
+}*/
+/*.inputButton:hover {
+    top: 2px;
+    -webkit-box-shadow: 0 3px 0 #2CADAD;
+    -moz-box-shadow: 0 3px 0 #2CADAD;
+    box-shadow: 0 3px 0 #2CADAD;
+}
+.inputButton:active {
+    top: 5px;
+    box-shadow: none;
+}*/
+/*.inputButton:focus {
+    outline: none;
+}*/
+
+.taxtReg{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration-color: rgba(49,75,82,0.65);
+}
+/*@media screen and (max-width: 720px){
+    #container{
+        width: 100%;
+        height: 100vh;
+    }
+}*/
+
+.wrapper {
+    width: 80%;
+    margin: 150px auto;
+}
+input {
+    display: none;
+}
+input:checked + label {
+    background-color: #33CCCC;
+    color: white;
+}
+input[id="tab-1"]:checked ~ .content .tab-1,
+input[id="tab-2"]:checked ~ .content .tab-2,
+input[id="tab-3"]:checked ~ .content .tab-3 {
+    display: block;
+}
+label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 10px;
+
+}
+.content {
+    position: relative;
+}
+.content article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 70px 40px;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        width: 100%;
+        height: 100%;
+    }
+}
+.col-sm-12{
+    max-height: 100%;
+}
+#newpass, #confirmPass, #pass{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+.btnChangePass{
+    width: 30%;
+}
+.container{
+    padding-bottom: 0px;
+    margin-bottom:0px ;
+}
+.imgProfile{
+    width: 150px;
+    height: 100px;
+    z-index: 2;
+    padding-right: 10px;
+}
+.cardCss{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.fa-star{
+    color: gainsboro;
+
+}
+
+.checked {
+    color: gray;
+
+}
+.starRating{
+    padding-right: 0px;
+    margin-right: 0px;
+
+}
+.numberReviews{
+    padding-left: 0px!important;
+    margin-left: 0px!important;
+}
+.btnLogOut{
+    border-radius: 3px;
+    background-color: #fff;
+    border-color: #2aabd2 ;
+    border: 1px solid ;
+    text-decoration-color: #2aabd2;
+    color: #2aabd2;
+}
+.labelMenu{
+    width:70px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.follow{
+    color: #757575;
+}
+.numberOfFollowers{
+    text-decoration: black;
+}
+.uploadImage{
+    height: 50px;
+    display:block;
+    position: relative;
+    border: 1px solid white;
+    margin:0 auto;
+    background-color: #fff;
+    border-color: gainsboro ;
+    border-radius: 3px;
+}
+.upImage{
+    padding: 10px;
+    color: gainsboro;
+}

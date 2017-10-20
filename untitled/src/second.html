@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="wrapper">
+
+        <div class="container cardCss">
+            <div class="row">
+
+                <div class="col-md-10"></div>
+                <div class="col-md-2">
+                    <button class="btnLogOut">Log out</button>
+
+                </div>
+                <div class="col-md-12">
+                    <button type="button" class="uploadImage"><i class="fa fa-camera upImage" aria-hidden="true"></i>Upload Cover Image</button>
+                </div>
+                <div class="col-md-2">
+                    <img class="imgProfile" src="images/profile_image.jpg">
+                </div>
+                <div class="col-md-3">
+                    <h4>Jessica Parker</h4>
+                    <p>Newport Beach, CA</p>
+                    <p>(093)325-68594</p>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-2 starRating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <div class="col-md-2 numberReviews">
+                    6   Reviews
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <label class="labelMenu" for="tab-1">ABOUT</label>
+                        <label class="labelMenu" for="tab-2">SETTINGS</label>
+                        <label class="labelMenu" for="tab-3">OPTION1</label>
+                        <label class="labelMenu" for="tab-4">OPTION2</label>
+                    </div>
+                    <div class="col-md-2">
+                        <i class="fa fa-plus-circle follow" aria-hidden="true"></i>
+                        <span class="numberOfFollowers">15</span>
+                        <span>followers</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <input type="radio" name="tab" id="tab-1" />
+            <input type="radio" name="tab" id="tab-2" />
+            <input type="radio" name="tab" id="tab-3" />
+            <input type="radio" name="tab" id="tab-4" />
+            <input type="radio" name="tab" id="tab-5" />
+
+                <div class="content cardCss ">
+                    <div class="col-md-6">
+                        <article class="tab-1 col-md-6">
+                            Tab1
+                        </article>
+
+                        <article class="tab-2">
+                            <div class="form-group">
+                                <h3>Change Password</h3>
+                                <input type="password" class="form-control" id="pass" placeholder="Existing Password">
+                                <input type="password" class="form-control" id="newpass" placeholder="New Password">
+                                <input type="password" class="form-control" id="confirmPass" placeholder="Confirm Password">
+                                <button type="button" class="btn btn-primary btnChangePass">SAVE</button>
+                            </div>
+                        </article>
+                        <article class="tab-3 col-md-6">
+                            Tab3
+                        </article>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
